@@ -33,3 +33,15 @@ engine=create_engine('postgresql://postgres:<username>:<password>@localhost/<db_
 - Create your database by running ``` python init_db.py ```
 - Finally run the API
 ``` uvicorn main:app ``
+
+## Lessons I learned
+
+- I learned how APIs work from building the endpoints — for example, /orders/order/ taught me how to send and receive JSON using HTTP methods.
+
+- I learned user auth and security from the signup/login flow — hashing passwords and protecting routes showed me why authentication matters.
+
+- I learned databases and ORM from using SQLAlchemy and Postgres — modelling tables as classes and using sessions made data handling easier.
+
+- I learned project setup & running basics from using virtualenv and running the app with uvicorn — it taught me how to prepare the project so others can run it.
+
+
